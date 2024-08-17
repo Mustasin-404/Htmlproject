@@ -14,6 +14,7 @@
           errorDiv.style.display = "block";
           return;
       }
+      
 
       if (email === "") {
           errorDiv.textContent = "Email is required.";
